@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 	<head>
 	<meta charset="UTF-8">
@@ -8,23 +8,174 @@
 	<body>
 	<p>
 	</p>
-	<section>
+
 		<table>
-		<caption>Today's Sudoku</caption>
-		<colgroup span=3>
-		<colgroup><col><col><col>
-		<colgroup><col><col><col>
+		<caption>2014 Seattle Mariners Statistical Leaderboard</caption>
+		<thead>
+		<tr>
+		<th></th>
+		<th scope="col">PA</th>
+		<th scope="col">OBP</th>
+		<th scope="col">wOBA</th>
+		<th scope="col">wRC+</th>
+		<th scope="col">WAR</th>
+		</tr>
+		</thead>
 		<tbody>
-		<tr> <td> 1 <td>   <td> 3 <td> 6 <td>   <td> 4 
-		<tr> <td>   <td> 2 <td>   <td>   <td> 9 <td>   
-		<tr> <td> 7 <td>   <td>   <td>   <td> 9 <td>   
-		<tbody>
-		<tr> <td> 2 <td>   <td> 4 <td>   <td> 3 <td>   
-		<tr> <td>   <td>   <td>   <td>   <td>   <td>   
-		<tr> <td> 5 <td>   <td>   <td> 9 <td>   <td> 7 
-		<tbody>
+		<tr>
+		<th scope="row">Kyle Seager</th>
+		<td>654</td>
+		<td>.334</td>
+		<td>.346</td>
+		<td>126</td>
+		<td>5.5</td>
+		</tr>
+		<tr>
+		<th scope="row">Robinson Cano</th>
+		<td>665</td>
+		<td>.382</td>
+		<td>.361</td>
+		<td>136</td>
+		<td>5.2</td>
+		</tr>
+		<tr>
+		<th scope="row">Dustin Ackley</th>
+		<td>542</td>
+		<td>.293</td>
+		<td>.305</td>
+		<td>97</td>
+		<td>2.1</td>
+		</tr>
+		<tr>
+		<th scope="row">Michael Saunders</th>
+		<td>263</td>
+		<td>.341</td>
+		<td>.346</td>
+		<td>126</td>
+		<td>1.9</td>
+		</tr>
+		<tr>
+		<th scope="row">Mike Zunino</th>
+		<td>476</td>
+		<td>.254</td>
+		<td>.290</td>
+		<td>86</td>
+		<td>1.7</td>
+		</tr>
+		</tbody>
+		<tfoot>
+		<tr>
+		<td colspan="2">Footer1</td>
+		<td colspan="4">Footer2</td>
+		</tr>
+		</tfoot>
+
 		</table>
+
+	<dl>
+		<dt>wOBA</dt>
+		<dd>Weighted On-Base Average combines all the different aspects of hitting into one metric, weighting each of them in proportion to their actual run value. While batting average, on-base percentage, and slugging percentage fall short in accuracy and scope, wOBA measures and captures offensive value more accurately and comprehensively.(source: fangraphs)</dd>
+		<dt>wRC+</dt>
+		<dd>Weighted Runs Created (wRC) is an improved version of Bill James’ Runs Created (RC) statistic, which attempted to quantify a player’s total offensive value and measure it by runs.  In Runs Created, instead of looking at a player’s line and listing out all the details (e.g. 23 2B, 15 HR, 55 BB, 110 K, 19 SB, 5 CS), the information is synthesized into one metric in order to say, “Player X was worth 24 runs to his team last year.”(source: fangraphs)</dd>
+		<dt>WAR</dt>
+		<dd>Wins Above Replacement (WAR) is an attempt by the sabermetric baseball community to summarize a player’s total contributions to their team in one statistic. (source: fangraphs)</dd>
+	</dl>
 	
-	</section>
+	<div class="outer-container">
+		<div class="inner-container">
+		Blue Rectangle in a Pink Rectangle.
+		</div>
+	</div>
+	<br><br>
+	<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+	<fieldset>
+		<legend>
+			GET Data Input
+		</legend>
+		<fieldset>
+		<label>
+			Best Mariner in 2014:
+			<input type="text" name="text_input" size="30" maxlength="100">
+		</label></fieldset><br>
+		<fieldset>
+		<label>
+			Their jersey #:
+			<input type="number" name="number_input">
+		</label></fieldset><br>
+		<fieldset>
+		<label>
+			Your password:
+			<input type="password" name="password_input" size="30" maxlength="100">
+		</label></fieldset><br>
+		<fieldset><p>
+			Select Between:<br>
+			<label>
+				<input type="radio" name="candy" value="Snickers" />
+				Snickers
+			</label><br>
+			<label>
+				<input type="radio" name="candy" value="Skittles" />
+				Skittles
+			</label><br>
+			<label>
+				<input type="radio" name="candy" value="Mentos" />
+				Mentos
+			</label><br>
+		</p>
+		<input type="submit" value="SUBMIT">
+		</fieldset>
+	</fieldset>
+	</form>
+
+	<br><br>
+	<form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+	<fieldset>
+		<legend>
+			POST Data Input
+		</legend>
+		<fieldset>
+		<label>
+			Best Mariner in 2014:
+			<input type="text" name="text_input" size="30" maxlength="100">
+		</label></fieldset><br>
+		<fieldset>
+		<label>
+			Their jersey #:
+			<input type="number" name="number_input">
+		</label></fieldset><br>
+		<fieldset>
+		<label>
+			Your password:
+			<input type="password" name="password_input" size="30" maxlength="100">
+		</label></fieldset><br>
+		<fieldset><p>
+			Select Between:<br>
+			<label>
+				<input type="radio" name="candy" value="Snickers" />
+				Snickers
+			</label><br>
+			<label>
+				<input type="radio" name="candy" value="Skittles" />
+				Skittles
+			</label><br>
+			<label>
+				<input type="radio" name="candy" value="Mentos" />
+				Mentos
+			</label><br>
+		</p>
+		<input type="submit" value="SUBMIT">
+		</fieldset>
+	</fieldset>
+	</form>
+	<div style="width:100px;height:125px;float:left;">
+		<img src="kyle.jpg" alt="The SeaBoss" title="Kyle Seager Swings a Bat."/>
+	</div>
+	<p>
+	This is a whole bunch of text to display as a paragraph.  The image should stay aligned to the left and allow the text to wrap around it and continue to the bottom.  That is the purpose of this paragraph full of pointless text that you shouldn't even be reading.  If you have gotten this far, there is not need to keep reading as the content of this paragraph has no value.
+	</p>
+	<p>
+	This is a whole bunch of text to display as a paragraph.  The image should stay aligned to the left and allow the text to wrap around it and continue to the bottom.  That is the purpose of this paragraph full of pointless text that you shouldn't even be reading.  If you have gotten this far, there is not need to keep reading as the content of this paragraph has no value.
+	</p>
+
 	</body>
 </html>
